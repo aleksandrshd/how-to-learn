@@ -51,6 +51,7 @@
 
 /* подзаголовок */
 .header__subtitle {
+  margin: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -88,14 +89,10 @@
   z-index: 0;
 }
 
-/* основное содержимое страницы */
-.content {}
-
-/* блок description */
-.description {}
+/* секция description */
 
 /* блок two-columns */
-.description__two-columns {
+.two-columns {
   margin: 100px auto;
   width: 80%;
   display: flex;
@@ -104,7 +101,7 @@
 }
 
 /* элемент brief */
-.description__two-columns_brief {
+.two-columns__brief {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -114,13 +111,13 @@
 }
 
 /* основной текст */
-.description__two-columns_main-text {
+.two-columns__main-text {
   min-width: 784px;
   width: 80%;
 }
 
 /* абзац основного текста */
-.description__two-columns_paragraph {
+.two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -129,12 +126,12 @@
 }
 
 /* обнуление нижнего отступа абзаца основного текста через псевдокласс */
-.description__two-columns_paragraph:last-of-type {
+.two-columns__paragraph:last-of-type {
   margin-bottom: 0;
 }
 
 /* выделение в абзаце основного текста через span */
-.description__two-columns_span-accent {
+.two-columns__span-accent {
   font-weight: 700;
 }
 
@@ -147,7 +144,7 @@
 }
 
 /* заголовок */
-.section__title {
+.section-title {
   width: 60%;
   font-size: 60px;
   line-height: 1.15;
@@ -157,7 +154,7 @@
 }
 
 /* подзаголовок */
-.section__subtitle {
+.section-subtitle {
   width: 60%;
   font-size: 24px;
   line-height: 34px;
@@ -189,6 +186,7 @@
   font-size: 24px;
   line-height: 1.15;
   font-weight: 700;
+  margin-top: 0;
   margin-bottom: 20px;
 }
 
@@ -200,10 +198,15 @@
   margin: 20px 0;
 }
 
+.table__text:last-of-type {
+  margin: 0;
+}
+
 /* блок feynman */
 .feynman {
   background-color: #f2f2f2;
-  height: 890px;
+  box-sizing: border-box;
+  min-height: 890px;
   position: relative;
   text-align: center;
   background-image: url(../images/feynman.png);
@@ -255,12 +258,12 @@
 }
 
 /* модификатор заголовка */
-.section__title_theme_dark {
+.section-title_theme_dark {
   color: #fff;
 }
 
 /* модификатор подзаголовка */
-.section__subtitle_theme_dark {
+.section-subtitle_theme_dark {
   color: #fff;
 }
 
@@ -324,7 +327,7 @@
 
 /* заголовок */
 .footer__column-heading {
-  margin-left: 0;
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 700;
@@ -348,7 +351,7 @@
 }
 
 /* ссылки */
-.footer__column_link {
+.footer__column-link {
   text-decoration: none;
   color: #fff;
 }
