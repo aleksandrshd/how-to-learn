@@ -1,0 +1,11 @@
+/* ссылки */
+
+.footer__column-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__column-link:hover {
+  opacity: 0.6;
+  transition: opacity 0.75s linear;
+}

@@ -1,0 +1,9 @@
+.resorses__logo-zone {
+  display: flex;
+  flex-direction: row;
+  width: 1100px;
+  justify-content: space-between;
+  list-style: none;
+  margin: 80px auto 0;
+  padding: 0;
+}

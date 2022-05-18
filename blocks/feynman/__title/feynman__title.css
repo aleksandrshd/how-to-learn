@@ -1,0 +1,9 @@
+/* заголовок */
+
+.feynman__title {
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 1.15;
+  width: 648px;
+  margin: 0 auto;
+}

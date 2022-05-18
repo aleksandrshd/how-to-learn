@@ -1,0 +1,4 @@
+/* выделение в абзаце основного текста через span */
+.two-columns__span-accent {
+  font-weight: 700;
+}
